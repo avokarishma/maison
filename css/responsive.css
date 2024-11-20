@@ -1,0 +1,482 @@
+@media screen and (max-width:1440px) {
+    header .container {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    section.topbar {
+        z-index: 1;
+    }
+
+    .navlink ul li a:hover {
+        color: #ffffffc2;
+    }
+
+    .navlink ul {
+        gap: 10px;
+    }
+
+    .open {
+        display: block;
+        color: var(--primary-color);
+        font-size: 30px;
+    }
+
+    .closebutton {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .navlink ul li a {
+        color: #fff;
+    }
+
+    .navlink ul {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        position: static;
+    }
+
+    .navlink ul li {
+        padding: 10px;
+    }
+
+    .navbar .navlink {
+        margin-left: -15px;
+    }
+
+    .navlink {
+        transform: translateX(-100%);
+        transition: all 0.5s linear;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background: var(--primary-color);
+        width: 400px;
+        padding: 40px;
+        margin: 0;
+        z-index: 9;
+    }
+
+    body.toggle .navlink {
+        transform: translateX(0);
+    }
+
+    .single_footer.single_footer_address {
+        float: left;
+        width: 100%;
+        margin: 25px 0 0;
+    }
+
+    .single_footer ul li {
+        max-width: 100%;
+    }
+
+    .single_footer h4 {
+        margin-bottom: 8px;
+    }
+
+    .collection_banner.engima {
+        height: 450px;
+    }
+
+    .collection_banner.fxxking {
+        height: 450px;
+    }
+
+    .flp_three .container {
+        height: 450px;
+    }
+
+    .flp_two .container {
+        height: 450px;
+    }
+
+    .flp_one .container {
+        height: 450px;
+    }
+
+    .flp .container {
+        height: 450px;
+    }
+
+    .collection_banner {
+        height: 450px;
+    }
+
+    .banner_box img {
+        max-width: 150px;
+    }
+
+    .collection_banner.rouge {
+        height: 450px;
+    }
+
+    .collection_banner.mystery {
+        height: 450px;
+        background-position: center;
+
+    }
+
+    .collection_banner.oud {
+        height: 450px;
+        background-position: center;
+    }
+
+    .contact_banner {
+        padding: 30px 0px 0;
+    }
+
+    .form-box {
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .change .row {
+        row-gap: 80px;
+    }
+    .banner_box {
+        max-width: 500px;
+    }
+   
+    footer .container {
+        padding: 0 30px;
+    }
+
+    header .container {
+        padding: 0 30px;
+    }
+
+    .copyright_sec {
+        padding: 0 30px;
+    }
+
+    .hidetab {
+        display: none;
+    }
+
+    .showtab {
+        display: block;
+    }
+
+    .collection_banner.engima {
+        background-image: url(../img/enigmatabletbanner.png);
+        background-position: center;
+    }
+
+    .botttle.brand_text {
+        padding: 60px 0;
+    }
+
+    .slide_perfume {
+        padding: 40px 0;
+    }
+
+    .bot_box img {
+        max-width: 268px;
+    }
+
+    .edi_box img {
+        max-width: 448px;
+    }
+
+    .items {
+        height: 550px;
+    }
+
+    .franci p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .franci {
+        padding: 60px 0;
+    }
+
+    .img_box {
+        text-align: center;
+    }
+
+    .img_box img {
+        width: 100%;
+        max-width: 401px;
+    }
+
+    .above .conatiner {
+        padding: 0;
+    }
+
+    footer {
+        padding: 27px 0;
+    }
+
+    p.copyright {
+        font-size: 14px;
+    }
+
+    .social_profile p {
+        font-size: 14px;
+    }
+
+    .botttle {
+        padding: 60px 0 0;
+    }
+
+    .bot_text p {
+        font-size: 16px;
+    }
+
+    #pause-btn {
+        top: 85%;
+        left: 30px;
+    }
+
+    #mute-btn {
+        top: 85%;
+        left: 70px;
+    }
+}
+@media screen and (max-width:991px) {
+    .single_footer.single_footer_address.last-ad {
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .change .row {
+        row-gap: 20px;
+    }
+    
+    .botttle.brand_text {
+        padding: 30px 0;
+    }
+
+    .bot_box img {
+        max-width: 240px;
+    }
+
+    .bot_text h2 {
+        margin: 30px 0;
+    }
+
+    .slide_perfume img {
+        max-width: 300px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .bot_text p {
+        font-size: 16px;
+    }
+
+    .backToTopBtn.active {
+        visibility: hidden;
+    }
+
+    .items {
+        height: 350px;
+    }
+
+    .single_footer.single_footer_address {
+        margin: 0;
+    }
+
+    .single_footer {
+        margin-bottom: 25px;
+    }
+
+    .logo img {
+        max-width: 234px;
+    }
+
+    .single_footer ul li {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .single_footer h4 {
+        font-size: 16px;
+    }
+
+    .single_footer img {
+        max-width: 75px;
+    }
+
+    .copyright_sec {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .change {
+        padding: 0 0 60px;
+    }
+
+    .franci p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .flp_three .container {
+        height: 350px;
+    }
+
+    .flp_two .container {
+        height: 350px;
+    }
+
+    .tile-ut h2 {
+        font-size: 20px;
+    }
+
+    .together.mobile {
+        display: block;
+    }
+
+    .primary-btn {
+        font-size: 14px;
+        padding: 8px 32px;
+        margin-top: 16px;
+    }
+
+    .flp_one .container {
+        height: 350px;
+    }
+
+    .row.title_box {
+        padding: 25px 0;
+    }
+
+    .flp .container {
+        height: 350px;
+    }
+
+    .collection_banner {
+        height: 350px;
+    }
+
+    .collection_banner.engima {
+        height: 350px;
+    }
+
+    .collection_banner.fxxking {
+        height: 350px;
+    }
+
+    .botttle {
+        padding: 30px 0 0;
+    }
+
+    .collection_banner.rouge {
+        height: 350px;
+    }
+
+    .collection_banner.mystery {
+        height: 350px;
+
+    }
+
+    .collection_banner.oud {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .items {
+        height: 450px;
+    }
+
+    .showmob {
+        display: block;
+    }
+
+    .showtab {
+        display: none;
+    }
+
+    .checkbox-group label {
+        display: inline-block;
+        margin: 8px 5px 13px;
+    }
+
+    .checkbox-group {
+        display: block;
+    }
+
+    .checkbox-group .form-box label {
+        padding: 0;
+        margin: 0;
+    }
+    .collection_banner.fxxking {
+        background-image: url(../img/mainsli4mob.png);
+        background-position: center;
+    }
+    .flp .container {
+        background-image: url(../img/2.png);
+        background-position: center;
+    }
+
+    .collection_banner.oud {
+        background-image: url(../img/shiningbanermobile.png);
+        background-position: center;
+    }
+
+    .collection_banner.mystery {
+        background-image: url(../img/maskbannermobile.png);
+        background-position: center;
+
+    }
+
+    .collection_banner.rouge {
+        background-image: url(../img/mobilebannerred.png);
+        background-position: center;
+    }
+
+    .collection_banner.engima {
+        background-image: url(../img/mainsli5mob.png);
+        background-position: center;
+    }
+
+    .flp_three .container {
+        background-image: url(../img/mobilered.png);
+        background-position: center;
+    }
+
+    .flp_two .container {
+        background-image: url(../img/mobilemask.png);
+        background-position: center;
+    }
+
+    .flp_one .container {
+        background-image: url(../img/mobilebottle.png);
+        background-position: center;
+    }
+
+    .collection_banner {
+        background-image: url(../img/mobiletogether.png);
+        background-position: center;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    
+    .banner_box img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:423px) {
+    .items {
+        height: 350px;
+    }
+}
